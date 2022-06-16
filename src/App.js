@@ -1,5 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react';
+import Album from './components/Album';
+import Artist from './components/Artist';
 
-const App = () => <h1>Hello World!</h1>
+function App(){
+    return (
+        <>
+        <Album />
+        <Artist />
+        </>
+    )
+}
 
-export default App
+export default App;
