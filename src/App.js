@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
-import Album from './components/Album';
-import Artist from './components/Artist';
+import React from 'react';
+import Album from './components/Albums';
+import Artist from './components/Artists';
 
 function App(){
     return (
-        <>
-        <Album />
-        <Artist />
-        </>
-    )
+        <main>
+            <h1>Sensational Sounds for 2022</h1>
+            <Album />
+            <Artist />
+        </main>
+    );
 }
 
 export default App;
