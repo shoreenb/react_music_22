@@ -5,9 +5,9 @@ import Artist from './components/Artists';
 function App(){
     return (
         <main>
-            <h1>Sensational Sounds for 2022</h1>
-            <Album />
-            <Artist />
+            <h1>Sensational Sounds for 2022 is currently under construction!</h1>
+            <Albums />
+            <Artists />
         </main>
     );
 }
